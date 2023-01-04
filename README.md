@@ -11,8 +11,13 @@ Python Version: **Python 3.8.10**
     > python -m pip install requests
 
 **How to use:**
-  * Open your terminal and run: 
-  * > python checkMyPassword.py <your_password_here> <another_password>
+  * Open your terminal
+  * Navigate to the directory that contains the **checkMyPassword.py** file
+  * Run the following command:
+    > python checkMyPassword.py {your_password_here} {another_password}
+  * Replace {your_password} with a password you choose to test:
+  * eg:
+    > python checkMyPassword.py P@ssw0rd 'P@ss123'
   * Response will return how many times your password has been hacked or if it is secure
 
 **NOTES:**
