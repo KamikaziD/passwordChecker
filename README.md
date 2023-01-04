@@ -4,7 +4,7 @@ Checks if your password has been hacked
 Python Version: **Python 3.8.10**
 
 **To install python:**
-  * Visit https://www.python.org/downloads/release/python-3811/ for more information
+  * Visit https://www.python.org/downloads/release/python-3810/ for more information
 
 **How to use:**
   * Open your terminal and run: python checkMyPassword.py <your_password_here> <another_password>
