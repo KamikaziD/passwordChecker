@@ -17,7 +17,12 @@ Python Version: **Python 3.8.10**
     > python checkMyPassword.py {your_password_here} {another_password}
   * Replace {your_password} with a password you choose to test:
   * eg:
-    > python checkMyPassword.py P@ssw0rd 'P@ss123'
+    >     python checkMyPassword.py P@ssw0rd 'P@ss123'
+  * Example Response:
+    >     P@ssw0rd was found 83846 times... You should probably change your password!!!
+    >     P@ss123 was found 263 times... You should probably change your password!!!
+    >     done!
+    
   * Response will return how many times your password has been hacked or if it is secure
 
 **NOTES:**
