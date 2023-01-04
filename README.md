@@ -8,13 +8,13 @@ Python Version: **Python 3.8.10**
 
 **Install Dependencies**
   * Install Requests:
-    > python -m pip install requests
+    >     python -m pip install requests
 
 **How to use:**
   * Open your terminal
-  * Navigate to the directory that contains the **checkMyPassword.py** file
+* Navigate to the directory that contains the **checkMyPassword.py** file
   * Run the following command:
-    > python checkMyPassword.py {your_password_here} {another_password}
+    >     python checkMyPassword.py {your_password_here} {another_password}
   * Replace {your_password} with a password you choose to test:
   * eg:
     >     python checkMyPassword.py P@ssw0rd 'P@ss123'
