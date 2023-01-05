@@ -29,13 +29,14 @@ def pwned_api_check(password):
 
 
 def main(args):
+    print('--> Checking')
     for password in args:
         count = pwned_api_check(password)
         if count:
             print(f'{password} was found {count} times... You should probably change your password!!!')
         else:
             print(f'{password} was NOT found. Carry on!!')
-    return 'done!'
+    return '--> Done!'
 
 
 if __name__ == '__main__':

@@ -26,8 +26,8 @@ Python Version: **Python 3.8.10**
   * Response will return how many times your password has been hacked or if it is secure
 
 **NOTES:**
-  * We do not send your actual password to the API
-  * We HASH your password with SHA1 and then only send the first 5 characters
-  * We will match password locally
+  * Your actual password does not get sent to the API
+  * Your password gets HASHED with SHA1 and then only send the first 5 characters
+  * Passwords get matched locally
 
-**ENJOY and NEVER share your password**
+**Be safe and NEVER share your passwords**
